@@ -60,7 +60,7 @@ const Register = () => {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               className="form-control"
-              id="exampleInputEmail1"
+              id="exampleInputEmail2"
               placeholder="Enter Your Email "
               required
             />
@@ -82,7 +82,7 @@ const Register = () => {
               value={phone}
               onChange={(e) => setPhone(e.target.value)}
               className="form-control"
-              id="exampleInputEmail1"
+              id="exampleInputEmail4"
               placeholder="Enter Your Phone"
               required
             />
@@ -93,7 +93,7 @@ const Register = () => {
               value={address}
               onChange={(e) => setAddress(e.target.value)}
               className="form-control"
-              id="exampleInputEmail1"
+              id="exampleInputEmail5"
               placeholder="Enter Your Address"
               required
             />
@@ -104,7 +104,7 @@ const Register = () => {
               value={answer}
               onChange={(e) => setAnswer(e.target.value)}
               className="form-control"
-              id="exampleInputEmail1"
+              id="exampleInputEmail6"
               placeholder="What is Your Favorite sports"
               required
             />
