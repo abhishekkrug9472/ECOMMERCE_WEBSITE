@@ -12,10 +12,11 @@ import cors from "cors";
 dotenv.config();
 
 //databse config
-connectDB("mongodb://127.0.0.1:27017/Ecommercenew").then(() =>
-	console.log("Mongodb connected")
-  );
+// connectDB("mongodb+srv://abhi:abhi9472@eco.tqvbzvt.mongodb.net/?retryWrites=true&w=majority&appName=ECo").then(() =>
+// 	console.log("Mongodb connected")
+//   );
 
+connectDB();
 //rest object
 const app = express();
 
